@@ -1,6 +1,10 @@
+#include <xzkv.h>
+
 int
 main(int argc, char **argv)
 {
-    //TODO
+    xzkv_log_init();
+    xzkv_log_dfl("OK");
+
     return 0;
 }
